@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0 ;
+    padding:0 ;
+    box-sizing: 0;
+  }
+
+  .logo {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight:900;
+    font-size:1.2em;
+    letter-spacing: 1px;
+    
+}
+body{
+    background-color:#0D0D0D;
+    text-transform: uppercase;
+}
+h1{
+    text-align:center;
+    color: #717332;
+}
+h3{
+    color: #717332;
+margin: 5px;
+}
+.skill{
+    background-color: #fff;
+    width:500px;
+    margin:60px auto;
+    color:#fff;
+    padding:20px;
+    box-shadow:0 14px 28px rgba(239, 233, 233, 0.4),0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 25px;
+
+   
+}
+.skill li{
+
+    margin:20px;
+    padding: 10px;
+}
+.bar{
+    background-color: #0D0D0D;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.22);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 14px 28px rgba(239, 233, 233, 0.4),0 10px 10px rgba(0,0,0,0.22);
+    transition:all 0.3s  cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow:0 14px 28px rgba(216, 241, 108, 0.4),0 10px 10px rgba(210, 227, 101, 0.22);
+    
+}
+.bar span {
+    height: 20px;
+    float:left;
+    background:linear-gradient(135deg,rgb(227, 192, 37)0%,rgb(47, 72, 5)100%);
+}
+.html{
+    width: 92%;
+    animation: html 3s;
+}
+.css{
+    width: 95%;
+    animation: css 3s;
+}
+.javascript{
+    width: 81%;
+    animation: javascript 3s;
+}
+.MySql{
+    width: 72%;
+    animation: MySql 3s;
+}
+.java
+{
+    width: 91%;
+    animation:java 3s;
+}
+.python
+{
+    width: 74%;
+    animation:python 3s;
+}
+.react
+{
+    width:52%;
+    animation: MySql 3s;
+}
+.angular
+{
+    width: 88%;
+    animation: angular 3s;
+}
+
+@keyframes html{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:92%;
+    }
+}
+@keyframes css{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:95%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:81%;
+    }
+}
+
+@keyframes MySql{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:72%;
+    }
+}
+@keyframes java{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:91%;
+    }
+}
+@keyframes python{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:74%;
+    }
+}
+@keyframes react{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:52%;
+    }
+}
+@keyframes angular{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:88%;
+    }
+}
+
+
